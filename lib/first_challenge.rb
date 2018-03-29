@@ -14,7 +14,12 @@ def first_challenge
   }
 
   #your code here
-contacts.each {|k,v| v.delete("strawberry") if k == :favorite_icecream_flavors}
+contacts.each do |person, data|
+  data.each do |k,v|
+    if attribute == :favorite_icecream_flavors
+      value.delete_if("strawberry")
+    end
+  end
 
 end
 
