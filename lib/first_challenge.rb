@@ -19,7 +19,7 @@ contacts["Freddy Mercury"].each do |attribute, value|
     value.each do |flavor|
 
       value.delete_if("strawberry")
-    
+
       end
 
 end
