@@ -10,6 +10,5 @@ def second_challenge
 
 
 groceries.map{|item| item.values}.flatten
-end
 
 end
