@@ -7,8 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.each do |k,v|
-  k.values("v")
-end
-groceries
+
+
+groceries[:dairy].values
 end
