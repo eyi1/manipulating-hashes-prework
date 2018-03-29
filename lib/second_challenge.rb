@@ -9,8 +9,5 @@ def second_challenge
   #code your solution here!
 
 
-groceries[:dairy].values
-groceries[:vegetable].values
-groceries[:meat].values
-groceries[:grains].values
+groceries.values
 end
