@@ -14,12 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts["Freddy Mercury"].each do |attribute, value|
-  if attribute == :favorite_icecream_flavors
-binding.pry
-      value.delete("strawberry")
-
-      end
+contacts.each {|k,v| v.delete("strawberry") if k == :favorite_icecream_flavors}
 
 end
 
