@@ -9,6 +9,6 @@ def second_challenge
   #code your solution here!
 
 
-groceries.map{|item| item.values}
+groceries.map{|k| k.values}
 
 end
