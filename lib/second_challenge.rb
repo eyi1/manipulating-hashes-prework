@@ -9,5 +9,5 @@ def second_challenge
   #code your solution here!
 
 
-groceries.values
+groceries.map{|item| item.values}.flatten
 end
